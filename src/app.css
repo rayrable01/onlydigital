@@ -1,0 +1,22 @@
+.main__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 600px;
+    flex-direction: column;
+    gap: 60px;
+    width: 415px;
+}
+
+.main__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #42567a;
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    gap: 60px;
+}

@@ -1,0 +1,19 @@
+.top__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 600px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+    .top__container {
+        flex-direction: column;
+    }
+
+    .main__top {
+        min-height: 0;
+        gap: 0;
+        width: unset;
+    }
+}

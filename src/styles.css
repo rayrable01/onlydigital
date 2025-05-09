@@ -16,6 +16,15 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("fonts/bebas-neue-bold.eot"),
+		url("fonts/bebas-neue-bold.woff") format("woff"),
+		url("fonts/bebas-neue-bold.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+}
+
 html, body {
   box-sizing: border-box;
 }
@@ -38,4 +47,8 @@ body {
   max-width: 1470px;
   padding: 15px;
   width: 100%;
+}
+
+:root {
+  --second-family: 'Bebas Neue', sans-serif;
 }

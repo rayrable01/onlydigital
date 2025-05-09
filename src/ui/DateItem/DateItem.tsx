@@ -30,6 +30,7 @@ const Year = styled.span`
     text-transform: uppercase;
     color: #3877ee;
     margin-bottom: 15px;
+    font-family: var(--second-family);
 `;
 
 const Description = styled.p`
